@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iFrame</title>
+  <style>
+    .wrap {
+      /* width: 1000px; */
+      border: 2px solid black;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .col {
+      width: 50%;
+      background-color: #ccf;
+    }
+
+    .mv {
+      width: 100%;
+      height: 0;
+      padding-bottom: 56.25%;
+      /* 315 / 560 * 100 */
+      background-color: #fcc;
+      position: relative;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+    }
+
+  </style>
+</head>
+<body>
+  
+  <div class="wrap">
+    <div class="col">
+      <div class="mv">
+        <iframe width="1092" height="614" src="https://www.youtube.com/embed/cxCD6Ntjl94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col">
+      <div class="mv">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14461.688212588675!2d121.45704409999999!3d25.019747199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a80e5564f3a1%3A0x9f14bf51b4eb1688!2z5p2_5qmLNDM16Jed5paH54m55Y2A!5e0!3m2!1szh-TW!2stw!4v1617178784344!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html>
